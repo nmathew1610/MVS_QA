@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeClass;
 
 public class Base {
 	protected WebDriver driver;
-	
+	//Setting up firefox driver
 	@BeforeClass
 	public void setUpMethod( ) {
 		System.setProperty("webdriver.gecko.driver", "/Users/nmathew/Desktop/geckodriver");
@@ -17,7 +17,7 @@ public class Base {
        
 	}
 	
-	
+	//Closing the driver 
 	@AfterClass 
 	public void tearDownMethod( ) {
 		if (driver != null) {
