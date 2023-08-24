@@ -36,11 +36,27 @@ Follow these steps to set up and start automating:
    Write your test scripts using Selenium and the TestNG framework. You can use various Selenium methods and TestNG annotations to structure and run your tests.
 
 8. **Executing the Script**:
-   To execute or run the automated script .Open Terminal and navigate to our workspace and type the command "mvn test -Dtest=selenium_testng.testSearch"   
+   To execute or run the automated script .Open Terminal and navigate to our workspace and type the command "mvn test -Dtest=selenium_testng.testSearch"
 
-Remember to organize your code, use meaningful comments, and follow best practices for automation testing. This will help you create maintainable and efficient automated test scripts.
 
-By following these steps, you'll be able to set up your project, install necessary dependencies, and start automating test scenarios using Selenium and TestNG in the Eclipse IDE.
+# References
+
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3Schools - Python Syntax](https://www.w3schools.com/java/java_syntax.asp)
+- [XPath Cheat Sheet](https://devhints.io/xpath)
+
+## Repository Information
+
+This repository contains only one Main Branch 
+- The `Main` branch includes the following important files:
+  - Test scripts written in java
+  - POM.XML file
+  - README.md file
+  - High level Test Scenarios for iOS calendar app
+  - Exploratorty Test report for iOS calendar app 
+    
+
+If you want to run the scripts on your local machine pls clone the main branch .
 
 
 
