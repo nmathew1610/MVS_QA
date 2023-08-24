@@ -57,7 +57,7 @@ This repository contains only one Main Branch
 
 If you want to run the scripts on your local machine pls clone the main branch .
 
-
+Please note that in this repository you can find the QA challenge solutions for both Manual task 1 and Automation task 2 
 
 
 
