@@ -10,7 +10,7 @@ public class Base {
 	//Setting up firefox driver
 	@BeforeClass
 	public void setUpMethod( ) {
-		System.setProperty("webdriver.gecko.driver", "/Users/nmathew/Desktop/geckodriver");
+	System.setProperty("webdriver.gecko.driver", "/Users/nmathew/Desktop/geckodriver");
         driver = new FirefoxDriver();
         driver.get("https://www.google.com");
         driver.manage().window().maximize();
