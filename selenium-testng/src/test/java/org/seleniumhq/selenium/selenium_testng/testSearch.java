@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class testSearch extends Base {
 	
 	
-	
+	//First test to search for Active sync and clicking on it 
 	@Test()
 	public void searchActiveSync() throws InterruptedException {
         driver.findElement(By.id("L2AGLb")).click();
