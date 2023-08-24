@@ -16,12 +16,12 @@ public class testSearch extends Base {
         searchBox.sendKeys("Active sync");
         searchBox.submit();
         Thread.sleep(3000);
+	//Clicking on first link 	
         WebElement firstLink = driver.findElement(By.xpath("//h3[@class='LC20lb MBeuO DKV0Md' or @text='ActiveSync']"));
         firstLink.click();
-       //String  title = driver.getTitle();
-       //System.out.println(title);
+       
         
-        //verify that title of the opened page has ACTIVE SYNC " 
+       //verify that title of the opened page has ACTIVE SYNC " 
        WebElement pageHeading = driver.findElement(By.id("firstHeading"));
        String actualHeading = pageHeading.getText();
        String expectedHeading = "ActiveSync";
