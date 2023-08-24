@@ -42,7 +42,6 @@ Follow these steps to set up and start automating:
 # References
 
 - [Stack Overflow](https://stackoverflow.com/)
-- [W3Schools - Java Syntax](https://www.w3schools.com/java/java_syntax.asp)
 - [XPath Cheat Sheet](https://devhints.io/xpath)
 
 ## Repository Information
